@@ -58,7 +58,7 @@ class MessageBatch:
         """return True if batch does not have free capacity for append message
         """
         if self._relative_offset == 0:
-            # batch must contain al least one message
+            # batch must contain at least one message
             return False
         needed_bytes = MessageSet.HEADER_SIZE + Message.HEADER_SIZE
         if key is not None:
