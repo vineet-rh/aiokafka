@@ -10,7 +10,7 @@ aiokafka
     :target: https://gitter.im/aio-libs/Lobby
     :alt: |Chat on Gitter|
 
-asyncio client for Kafka
+asyncio client for Kafka foo
 
 
 AIOKafkaProducer
